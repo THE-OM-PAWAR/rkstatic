@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="SVG/coaching favicon.svg"
+      type="image/x-icon"
+    />
+    <meta name="author" content="RKclasses" />
+    <meta
+      name="keywords"
+      content="rk coaching classes pithampur, rk coaching class, rk coaching center, rk classes, rk coaching centre near me , RK coaching classes pithampur website, rk coaching pithampur website, RK coaching classes pithampur, rk classes pithampur teacher , rk coaching pithampur ,rk coaching classes pithampur contact number , rk coaching classes pithampur contact no"
+    />
+
+    <meta
+      name="description"
+      content="RK coaching classes pithampur is the best coaching center in pithampur for class 10th , 11th , and 12th. it is a percentage factory which encourrage student to study hard"
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="/" />
+    <meta
+      property="og:title"
+      content="rkclasses | best coaching classes in pithampur for class 10th , 11th , 12th"
+    />
+    <meta
+      property="og:description"
+      content="RK coaching classes pithampur is the best coaching center in pithampur for class 10th , 11th , and 12th. it is a percentage factory which encourrage student to study hard"
+    />
+    <meta property="og:image" content="SVG/coaching favicon.svg" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="SVG/coaching favicon.svg"
+    />
+    <link
+      rel="icon"
+      type="image/svg"
+      sizes="32x32"
+      href="SVG/coaching favicon.svg"
+    />
+    <link
+      rel="icon"
+      type="image/svg"
+      sizes="16x16"
+      href="SVG/coaching favicon.svg"
+    />
+    <link rel="mask-icon" href="SVG/coaching favicon.svg" color="#ffffff" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="stylesheet" href="CSS/component styles/menu_bar.css" />
+    <link rel="stylesheet" href="CSS/basic.css" />
+    <link rel="stylesheet" href="CSS/component styles/image_slider.css" />
+    <link rel="stylesheet" href="CSS/component styles/static component.css" />
+    <link rel="stylesheet" href="CSS/component styles/card_slider.css" />
+    <link rel="stylesheet" href="CSS/component styles/features_section.css" />
+    <link rel="stylesheet" href="CSS/component styles/footer.css" />
+    <link rel="stylesheet" href="CSS/component styles/modal.css" />
+    <title>RK Classes | Rk coaching classes pithampur</title>
+  </head>
+  <body>
+    <header>
+      <!-- =======================NAVIGATION BAR START========================== -->
+      <nav>
+        <!-- ======COMPANY LOGO======= -->
+        <div id="Company_logo" class="company_logo">
+          <object
+            data="SVG/Company_logo.svg"
+            type="image/svg+xml"
+            class="logo"
+            id="logo"
+          ></object>
+        </div>
+        <!-- ======MENU BUTTON======= -->
+        <div id="menu_button_section">
+          <div class="menu_option_box" id="menu_option_box">
+            <ul>
+              <li class="menu_options">
+                <a href="HTML/fee_structure.html"
+                  ><div class="option_name">Batches</div></a
+                >
+              </li>
+              <li class="menu_options">
+                <a href="HTML/topper.html"
+                  ><div class="option_name">Toppers</div></a
+                >
+              </li>
+              <li class="menu_options">
+                <div class="option_name">
+                  Location
+                </div>
+              </li>
+              <li class="menu_options">
+                <div  class="option_name">
+                  Contact
+                </div>
+              </li>
+              <li class="menu_options">
+                <!-- <a href="HTML/login.html"
+                  ><div class="option_name">Log In</div></a
+                > -->
+              </li>
+            </ul>
+          </div>
+          <!-- ======MENU BUTTON======= -->
+          <!-- ======MENU ICON BUTTON======= -->
+          <div class="menu_icon" id="menu_icon">
+            <img src="SVG/menu_btn.svg" alt="" />
+          </div>
+          <!-- ======MENU ICON BUTTON======= -->
+        </div>
+      </nav>
+      <!-- =======================NAVIGATION BAR END========================== -->
+
+      <!-- =======================MENU SECTION AFTER CLICK========================== -->
+      <div class="menu_box display_none" id="menu_box">
+        <div id="top_menu" class="max_width_parent_component">
+          <div id="menu_company_logo_box"></div>
+          <div id="close_btn"></div>
+        </div>
+        <div id="menu_option_under_menubox" class="max_width_parent_component">
+          <ul id="menu_option">
+            <!-- DINAMICALLY CODE FEEDING -->
+            <ul id="menu_option">
+              <!-- DINAMICALLY CODE FEEDING -->
+              <li
+                class="menu_options"
+                id="HTML/topper.html"
+                onclick="btn_func(this)"
+              >
+                <div>topper</div>
+              </li>
+              <li
+                class="menu_options"
+                id="HTML/fee_structure.html"
+                onclick="btn_func(this)"
+              >
+                <div>Batches</div>
+              </li>
+              <li
+                class="menu_options"
+                id="HTML/about.html"
+                onclick="btn_func(this)"
+              >
+                <div>About Us</div>
+              </li>
+              <li
+                class="menu_options"
+                id="HTML/result_form.html"
+                onclick="btn_func(this)"
+              >
+                <div>Post Result</div>
+              </li>
+            </ul>
+          </ul>
+        </div>
+        <div id="others_info" class="max_width_parent_component">
+          <div class="contact info" id="contact_info">
+            <h3 id="contact" class="sub_ot_info">Contact</h3>
+            <a href="mailto:xyz@gmail.com">
+              <p id="E_mail">E-mail : shyamsinghrajput11@gmail.com</p>
+            </a>
+            <p id="help_line_no" class="info_main">
+              Mobile No. : <span id="mobile_no2">8224908095</span>
+            </p>
+          </div>
+          <div class="contact info" onclick="open_location()" id="contact_info">
+            <h3 id="contact" class="sub_ot_info">Location</h3>
+            <p id="address_main" class="info_main">
+              B/51 CHHATRACHHAYA COLONY, Sector 1, Pithampur, Madhya Predesh
+            </p>
+            <p id="address_OF">RK COACHING CLASSES PITHAMPUR , adderess</p>
+          </div>
+        </div>
+      </div>
+      <!-- =======================MENU SECTION AFTER CLICK========================== -->
+    </header>
+
+    <!-- =======================IMAGE SLIDER START============================ -->
+    <section id="image_slider_section">
+      <div id="slider_box">
+        <div class="slide" id="slide1" style="background: #2f8398">
+          <img src="uploads/42@0.3x2.jpg" alt="" />
+          <div></div>
+        </div>
+        <div class="slide" id="slide2" style="background: #f8c544">
+          <img src="uploads/502.jpg" loading="lazy" alt="" />
+          <div></div>
+        </div>
+
+        <div class="slide" id="slide4" style="background: #09346bec">
+          <img src="uploads/653.jpg" loading="lazy" alt="" />
+          <div></div>
+        </div>
+      </div>
+      <div class="button_slider" id="left_move">&lt;</div>
+      <div class="button_slider" id="right_move">&gt;</div>
+    </section>
+    <div id="space_gainer"></div>
+    <article id="article_About_coaching">
+      <div id="intro_box" class="max_width_parent_component">
+        <h1 id="main_heading">RK Coaching Classes Pithampur</h1>
+        <p id="introPera">
+          Rk coaching is the platform of every student&#39;s who want to study
+          in higher classes with proper guidance for being successful to achieve
+          your goals. then you have to checkout our classes. we helps you to do
+          good in academics( by getting good percentage, guidance, and lot more.
+          )
+        </p>
+      </div>
+    </article>
+    <section id="Batches_section">
+      <div id="batches_box" class="max_width_parent_component">
+        <div id="batchse_bg_img" class="max_width_parent_component"></div>
+        <h2 id="batches_list_heading">Batches that we teaches</h2>
+        <p id="sub_context">
+          Choose according to you your need and preferences and if getting any
+          confussion then contact us
+        </p>
+        <ul class="all_batch_list" id="all_batch_list">
+          <li class="batch">
+            <div class="subj_list_box">
+              <div class="subject_main">
+                <h3>Class 8th</h3>
+                <h4>Main Subject</h4>
+                <ul>
+                  <li class="subj">Maths</li>
+                  <li class="subj">Science</li>
+                  <li class="subj">Social</li>
+                </ul>
+              </div>
+              <div class="subject_other">
+                <h5>Other Subject</h5>
+                <ul>
+                  <li class="subj_Oth">English</li>
+                  <li class="subj_Oth">Hindi</li>
+                  <li class="subj_Oth">Sanskrit</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="batch">
+            <div class="subj_list_box">
+              <div class="subject_main">
+                <h3>Class 9th</h3>
+                <h4>Main Subject</h4>
+                <ul>
+                  <li class="subj">Maths</li>
+                  <li class="subj">Science</li>
+                  <li class="subj">Social</li>
+                </ul>
+              </div>
+              <div class="subject_other">
+                <h5>Other Subject</h5>
+                <ul>
+                  <li class="subj_Oth">English</li>
+                  <li class="subj_Oth">Hindi</li>
+                  <li class="subj_Oth">Sanskrit</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li class="batch">
+            <div class="subj_list_box">
+              <div class="subject_main">
+                <h3>Class 10th</h3>
+                <h4>Main Subject</h4>
+                <ul>
+                  <li class="subj">Maths</li>
+                  <li class="subj">Science</li>
+                  <li class="subj">Social</li>
+                </ul>
+              </div>
+              <div class="subject_other">
+                <h5>Other Subject</h5>
+                <ul>
+                  <li class="subj_Oth">English</li>
+                  <li class="subj_Oth">Hindi</li>
+                  <li class="subj_Oth">Sanskrit</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="batch">
+            <div class="subj_list_box">
+              <div class="subject_main">
+                <h3>Class 11th</h3>
+                <h4>Main Subject</h4>
+                <ul>
+                  <li class="subj">Maths</li>
+                  <li class="subj">Physic</li>
+                  <li class="subj">Chemistry</li>
+                </ul>
+              </div>
+              <div class="subject_other">
+                <h5>Other Subject</h5>
+                <ul>
+                  <li class="subj_Oth">English</li>
+                  <li class="subj_Oth">Hindi</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="batch">
+            <div class="subj_list_box">
+              <div class="subject_main">
+                <h3>Class 12th</h3>
+                <h4>Main Subject</h4>
+                <ul>
+                  <li class="subj">Maths</li>
+                  <li class="subj">Physic</li>
+                  <li class="subj">Chemistry</li>
+                </ul>
+              </div>
+              <div class="subject_other">
+                <h5>Other Subject</h5>
+                <ul>
+                  <li class="subj_Oth">English</li>
+                  <li class="subj_Oth">Hindi</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="batch">
+            <div class="subj_list_box">
+              <div class="subject_main">
+                <h3>Government</h3>
+                <h4>Main Subject</h4>
+                <ul>
+                  <li class="subj">Maths</li>
+                  <li class="subj">Science</li>
+                  <li class="subj">Social</li>
+                </ul>
+              </div>
+              <div class="subject_other">
+                <h5>Other Subject</h5>
+                <ul>
+                  <li class="subj_Oth">English</li>
+                  <li class="subj_Oth">Hindi</li>
+                  <li class="subj_Oth">Sanskrit</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="about_teacher" class="max_width_parent_component">
+        <p id="about_teacher_para">
+          Experienced and passionate teacher providing personalized coaching to
+          unlock individual potential. Dedicated to fostering a supportive and
+          engaging learning environment, tailoring lessons to suit diverse
+          learning styles. Committed to inspiring and empowering students to
+          achieve their goals and maximize their academic growth.
+          <br />
+          <br />
+          Teacher
+          <br />
+          - Shyam Singh Rajput
+          <br />
+          - Radha Krishna Rajput
+        </p>
+        <a href="HTML/about.html" style="text-decoration: underline"
+          >Know about us &gt;</a
+        >
+      </div>
+    </section>
+    <hr />
+    <section id="topper_container">
+      <div class="card_slider_box max_width_parent_component">
+        <div class="head_topper">
+          <h2 class="topper_heading">Toppers</h2>
+          <p class="topper_subcontext">
+            more then 80% student get above 80% every year
+          </p>
+        </div>
+        <div id="Toppers_wrapper">
+          <div id="pre_Toppers_wrapper">
+            <div class="card_main">
+              <div class="card_img">
+                      <img src="uploads/result_folder/images.jpg" loading="lazy" alt="">
+                    </div>
+                    <div class="card_info">
+                      <h5>KAVITA LODHI </h5>
+                      <p>
+                       <span class="session_text">2019-20</span>
+                      </p>
+                      <div class="acadmics_info">
+                        <div class="class_box">
+                          <p class="identifier">Class</p>
+                          <p class="class_">10</p>
+                        </div>
+                        <div class="percentage_box">
+                          <p class="identifier">percentage</p>
+                          <p class="percentage_">100%</p>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            <div class="card_main">
+              <div class="card_img">
+                      <img src="uploads/result_folder/images.jpg" loading="lazy" alt="">
+                    </div>
+                    <div class="card_info">
+                      <h5>KAVITA LODHI </h5>
+                      <p>
+                       <span class="session_text">2019-20</span>
+                      </p>
+                      <div class="acadmics_info">
+                        <div class="class_box">
+                          <p class="identifier">Class</p>
+                          <p class="class_">10</p>
+                        </div>
+                        <div class="percentage_box">
+                          <p class="identifier">percentage</p>
+                          <p class="percentage_">100%</p>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            <div class="card_main">
+              <div class="card_img">
+                      <img src="uploads/result_folder/images.jpg" loading="lazy" alt="">
+                    </div>
+                    <div class="card_info">
+                      <h5>KAVITA LODHI </h5>
+                      <p>
+                       <span class="session_text">2019-20</span>
+                      </p>
+                      <div class="acadmics_info">
+                        <div class="class_box">
+                          <p class="identifier">Class</p>
+                          <p class="class_">10</p>
+                        </div>
+                        <div class="percentage_box">
+                          <p class="identifier">percentage</p>
+                          <p class="percentage_">100%</p>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            <div class="card_main">
+              <div class="card_img">
+                      <img src="uploads/result_folder/images.jpg" loading="lazy" alt="">
+                    </div>
+                    <div class="card_info">
+                      <h5>KAVITA LODHI </h5>
+                      <p>
+                       <span class="session_text">2019-20</span>
+                      </p>
+                      <div class="acadmics_info">
+                        <div class="class_box">
+                          <p class="identifier">Class</p>
+                          <p class="class_">10</p>
+                        </div>
+                        <div class="percentage_box">
+                          <p class="identifier">percentage</p>
+                          <p class="percentage_">100%</p>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            <div class="card_main">
+              <div class="card_img">
+                      <img src="uploads/result_folder/images.jpg" loading="lazy" alt="">
+                    </div>
+                    <div class="card_info">
+                      <h5>KAVITA LODHI </h5>
+                      <p>
+                       <span class="session_text">2019-20</span>
+                      </p>
+                      <div class="acadmics_info">
+                        <div class="class_box">
+                          <p class="identifier">Class</p>
+                          <p class="class_">10</p>
+                        </div>
+                        <div class="percentage_box">
+                          <p class="identifier">percentage</p>
+                          <p class="percentage_">100%</p>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            <div class="card_main">
+              <div class="card_img">
+                      <img src="uploads/result_folder/images.jpg" loading="lazy" alt="">
+                    </div>
+                    <div class="card_info">
+                      <h5>KAVITA LODHI </h5>
+                      <p>
+                       <span class="session_text">2019-20</span>
+                      </p>
+                      <div class="acadmics_info">
+                        <div class="class_box">
+                          <p class="identifier">Class</p>
+                          <p class="class_">10</p>
+                        </div>
+                        <div class="percentage_box">
+                          <p class="identifier">percentage</p>
+                          <p class="percentage_">100%</p>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            <div class="card_main">
+              
+              <div class="card_img">
+                <img
+                  src="uploads/result_folder/${element.your_photo}"
+                  loading="lazy"
+                  alt=""
+                />
+              </div>
+            </div>
+            <a href="HTML/topper.html">
+              <div class="card_main see_more">
+                <div>See All &gt;&gt;</div>
+              </div></a
+            >
+          </div>
+          <div id="left_move_card">&lt;</div>
+          <div id="right_move_card">&gt;</div>
+        </div>
+        <a href="HTML/topper.html" class="A_of_seeAll_button"
+          ><button id="seeAll_button">See All</button></a
+        >
+      </div>
+    </section>
+    <section class="specificatios_box">
+      <div class="specification_main_box max_width_parent_component">
+        <div class="heading_features">
+          <h3>Our Teaching Includes</h3>
+        </div>
+        <div class="all_features_box">
+          <div class="features" onclick="open_features(this)">
+            <h3>All Subject</h3>
+            <p>
+              RK coaching Classes teaches you all the main subject of each class
+              and also other subjects
+            </p>
+
+            <svg
+              class="dropdown_arrow"
+              width="13"
+              height="8"
+              viewBox="0 0 13 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                id="Arrow 8"
+                d="M5.96967 7.03033C6.26256 7.32322 6.73744 7.32322 7.03033 7.03033L11.8033 2.25736C12.0962 1.96447 12.0962 1.48959 11.8033 1.1967C11.5104 0.903806 11.0355 0.903806 10.7426 1.1967L6.5 5.43934L2.25736 1.1967C1.96447 0.903806 1.48959 0.903806 1.1967 1.1967C0.903806 1.48959 0.903806 1.96447 1.1967 2.25736L5.96967 7.03033ZM5.75 5.5V6.5H7.25V5.5H5.75Z"
+                fill="black"
+              ></path>
+            </svg>
+          </div>
+          <div class="features" onclick="open_features(this)">
+            <h3>Preparing Notes</h3>
+            <p>
+              All subject notes are prepared by us and also solution of
+              questions
+            </p>
+
+            <svg
+              class="dropdown_arrow"
+              width="13"
+              height="8"
+              viewBox="0 0 13 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                id="Arrow 8"
+                d="M5.96967 7.03033C6.26256 7.32322 6.73744 7.32322 7.03033 7.03033L11.8033 2.25736C12.0962 1.96447 12.0962 1.48959 11.8033 1.1967C11.5104 0.903806 11.0355 0.903806 10.7426 1.1967L6.5 5.43934L2.25736 1.1967C1.96447 0.903806 1.48959 0.903806 1.1967 1.1967C0.903806 1.48959 0.903806 1.96447 1.1967 2.25736L5.96967 7.03033ZM5.75 5.5V6.5H7.25V5.5H5.75Z"
+                fill="black"
+              ></path>
+            </svg>
+          </div>
+          <div class="features" onclick="open_features(this)">
+            <h3>Doubt Solving</h3>
+            <p>
+              Free to ask any of the relevent doubts any questions in the class.
+            </p>
+
+            <svg
+              class="dropdown_arrow"
+              width="13"
+              height="8"
+              viewBox="0 0 13 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                id="Arrow 8"
+                d="M5.96967 7.03033C6.26256 7.32322 6.73744 7.32322 7.03033 7.03033L11.8033 2.25736C12.0962 1.96447 12.0962 1.48959 11.8033 1.1967C11.5104 0.903806 11.0355 0.903806 10.7426 1.1967L6.5 5.43934L2.25736 1.1967C1.96447 0.903806 1.48959 0.903806 1.1967 1.1967C0.903806 1.48959 0.903806 1.96447 1.1967 2.25736L5.96967 7.03033ZM5.75 5.5V6.5H7.25V5.5H5.75Z"
+                fill="black"
+              ></path>
+            </svg>
+          </div>
+          <div class="features" onclick="open_features(this)">
+            <h3>Cunducting Test</h3>
+            <p>
+              here we are conducting tests regularly and also full length tests
+            </p>
+
+            <svg
+              class="dropdown_arrow"
+              width="13"
+              height="8"
+              viewBox="0 0 13 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                id="Arrow 8"
+                d="M5.96967 7.03033C6.26256 7.32322 6.73744 7.32322 7.03033 7.03033L11.8033 2.25736C12.0962 1.96447 12.0962 1.48959 11.8033 1.1967C11.5104 0.903806 11.0355 0.903806 10.7426 1.1967L6.5 5.43934L2.25736 1.1967C1.96447 0.903806 1.48959 0.903806 1.1967 1.1967C0.903806 1.48959 0.903806 1.96447 1.1967 2.25736L5.96967 7.03033ZM5.75 5.5V6.5H7.25V5.5H5.75Z"
+                fill="black"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pre_other_features_section">
+      <section class="other_features_section max_width_parent_component">
+        <div class="OF_heading_box">
+          <h2>Other Benifits</h2>
+          <div class="main_content_box">
+            <div id="image_box">
+              <div class="main_img_box" id="main_img_box">
+                <div class="image">
+                  <img src="uploads/coaching2.jpg" loading="lazy" alt="" />
+                  <div class="identifire"></div>
+                </div>
+                <div class="image">
+                  <img src="uploads/coaching1.jpg" loading="lazy" alt="" />
+                  <div class="identifire"></div>
+                </div>
+              </div>
+              <div class="left_OF_move" id="left_OF_move">&lt;</div>
+              <div class="right_OF_move" id="right_OF_move">&gt;</div>
+            </div>
+            <div class="info_OF" id="info_OF">
+              <h4>Competitive Environment</h4>
+              <p>
+                Experience a dynamic, competitive environment that pushes
+                students to excel and achieve their highest potential.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="session_structure_box">
+      <div class="SS_main_content max_width_parent_component">
+        <h3>session structure</h3>
+        <p>
+          from 1 April new session is startes every year, you can join in any
+          month as yuor convenience . we prefer to join as early as possible
+          because are trying do complete course more in summer holyday.
+          <br />
+          <br />
+          Do join fast for early Benifits.
+        </p>
+        <a href="HTML/fee_structure.html">
+          <button>More About Batches</button>
+        </a>
+      </div>
+    </section>
+    <hr />
+    <section id="contact_section">
+      <div class="main_contact_container max_width_parent_component">
+        <div class="card_contact" id="location_button">
+          <a href="https://goo.gl/maps/AjvAuMniq6sfae2eA">
+            <h2>Location</h2>
+            <div class="logo_head">
+              <img src="SVG/Vector map.svg" alt="" />
+              <div class="anchor">location on map &gt;&gt;</div>
+            </div>
+            <p class="location_text">
+              B/51 CHHATRACHHAYA COLONY, Sector 1, Pithampur, Madhya Pradesh
+              <br />
+            </p>
+            <div>
+              <span> RK COACHING CLASSES PITHAMPUR, address </span>
+            </div>
+            <p></p>
+            <!-- 
+          -->
+          </a>
+        </div>
+        <div class="card_contact" id="mobile_no_pre">
+          <h2>Contact No.</h2>
+          <div class="logo_head">
+            <img src="SVG/Vector call.svg" alt="" />
+
+            <div class="anchor">
+              <span id="mobile_no" style="cursor: pointer">
+                8224908095 &gt;&gt;</span
+              >
+            </div>
+
+            <p>click to copy number</p>
+          </div>
+        </div>
+        <div class="card_contact" id="email_box">
+          <h2>E-mail</h2>
+          <div class="logo_head">
+            <img src="SVG/mail_FILL0_wght400_GRAD0_opsz48 1.svg" alt="" />
+            <a href="mailto:shyamsinghrajput11@gmail.com">Send email</a>
+            <span style="font-size: 1rem">click to copy </span>
+            <p
+              id="E_mail_real"
+              style="text-align: center; cursor: pointer; font-size: 1.5rem"
+            >
+              shyamsinghrajput11@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer_container max_width_parent_component">
+        <div id="Company_logo_footer">
+          <object
+            data="SVG/Company_logo_footer.svg"
+            type="image/svg+xml"
+            class="logo"
+            id="logo"
+          ></object>
+        </div>
+        <div class="content_footer">
+          <ul>
+            <li><a href="HTML/T&amp;C.html"> terms &amp; condition</a></li>
+            <li><a href="HTML/security.html">privacy statement </a></li>
+            <li><a href="HTML/disclamer.html">Disclamer </a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- =======================IMAGE SLIDER END============================ -->
+    <!-------------|| DINAMICALLY GENERATED MODAL PAGE ARE HERE ||------------->
+    <section class="modal_main" id="modal_main"></section>
+    <!------------------- || END OF MODAL PAGE ||---------------------->
+    <script></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="JavaScript/menubtn.js"></script>
+    <script src="JavaScript/componentScripting.js"></script>
+    <script src="JavaScript/user_data.js"></script>
+    <script src="JavaScript/modal.js"></script>
+    <script src="JavaScript/local.js"></script>
+    <script src="JavaScript/topper_result.js"></script>
+  </body>
+</html>
